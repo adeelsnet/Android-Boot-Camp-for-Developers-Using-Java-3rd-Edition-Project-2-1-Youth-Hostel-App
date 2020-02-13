@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/main_header"
-        android:layout_width="338dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="108dp"
-        android:gravity="center|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="@string/main_header"
         android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/hostel_pic"
         app:layout_constraintEnd_toEndOf="@+id/hostel_pic"
         app:layout_constraintStart_toStartOf="@+id/hostel_pic"
         app:layout_constraintTop_toTopOf="parent" />
